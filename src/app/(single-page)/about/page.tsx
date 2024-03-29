@@ -30,7 +30,7 @@ export const metadata = getMetadata({
 export default async function AboutPage() {
   const sectionSpacing = 'pt-12'
   return (
-    <div className="thi-bg-stone">
+    <div className="ly-bg-stone">
       <HeaderAbout />
       <Container className={cn(bodyPadding, containerWide)}>
         <div className={'flex flex-wrap gap-4'}>
@@ -56,7 +56,6 @@ export default async function AboutPage() {
           ))}
         </div>
       </Container>
-      <Footer footerType="gray" />
       <ScrollToTop />
     </div>
   )

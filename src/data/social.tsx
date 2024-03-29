@@ -13,51 +13,16 @@ const socials: BadgeSocialProps[] = [
     id: 'github',
     title: 'Github',
     icon: GithubIcon,
-    url: 'https://github.com/dinhanhthi',
+    url: 'https://github.com/ngvanlyy',
     imgClass: 'invert'
   },
   {
     id: 'linkedin',
     title: 'LinkedIn',
     icon: LinkedInIcon,
-    url: 'https://www.linkedin.com/in/dinhanhthi/'
-  },
-  {
-    id: 'twitter',
-    title: 'Twitter',
-    icon: TwitterIcon,
-    url: 'https://twitter.com/dinhanhthi'
-  },
-  {
-    id: 'goodreads',
-    title: 'Goodreads',
-    icon: GoodreadsIcon,
-    url: 'https://www.goodreads.com/user/show/19630622-thi-dinh'
-  },
-  {
-    id: 'stackexchange',
-    title: 'StackExchange',
-    icon: SOIcon,
-    url: 'https://stackexchange.com/users/1344291/anh-thi-dinh'
-  },
-  {
-    id: 'coursera',
-    title: 'Coursera',
-    icon: CouseraIcon,
-    url: 'https://www.coursera.org/user/47f27dde0ecab9a78e2c93632d78a556'
-  },
-  {
-    id: 'math2it',
-    title: 'Math2IT',
-    icon: Math2ITIcon,
-    url: 'https://math2it.com'
-  },
-  {
-    id: 'duolingo',
-    title: 'Duolingo',
-    icon: DuolingoIcon,
-    url: 'https://www.duolingo.com/profile/mr.Thi'
+    url: 'https://www.linkedin.com/in/nguyen-van-ly-7a4a64175/'
   }
+
 ]
 
 export default socials
