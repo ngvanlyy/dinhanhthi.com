@@ -7,8 +7,7 @@ const cv: CVGroupType[] = [
     id: 'experiences',
     name: 'Experiences',
     list: [
-      {
-        id: 'Data Analyst',
+      { id: 'Data Analyst',
         where: 'Pvcombank',
         url: 'https://www.pvcombank.com.vn/',
         title: 'Data Analyst',
