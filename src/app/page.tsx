@@ -78,7 +78,6 @@ export default async function Home() {
                   }
                 >
                   <PostList
-                    posts={pinnedPosts}
                     postType="PostSimple"
                     postTypeOpts={{ ...defaultPostTypeOpts, showPinned: true }}
                     options={{
