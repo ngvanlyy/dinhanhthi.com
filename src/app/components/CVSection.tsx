@@ -14,7 +14,6 @@ export default function CVSection({ cv, className }: CVSectionProps) {
   return (
     <div className={cn('flex flex-wrap items-center', className)}>
       <div className={'hidden w-1/4 flex-col items-center py-4 px-2 md:flex'}>
-        {logo(cv)}
         <h4 className="text-slate-700 mt-2 text-center text-base font-semibold">
           {cv.url && (
             <a
@@ -32,7 +31,6 @@ export default function CVSection({ cv, className }: CVSectionProps) {
       </div>
       <div className="flex-1 px-4 py-6">
         <div className="flex items-center gap-4">
-          <div className="md:hidden">{logo(cv)}</div>
           <div>
             <h3 className="text-lg font-semibold text-slate-700">{cv.title}</h3>
             <h4 className="text-base md:hidden">
@@ -72,15 +70,4 @@ export default function CVSection({ cv, className }: CVSectionProps) {
   )
 }
 
-function logo(cv: CVItem) {
-  return (
-    <div
-      className={cn('h-auto w-20', {
-        'p-2': cv.bgWhite,
-        'p-1': !cv.bgWhite
-      })}
-    >
-      <Image src={cv.logo} alt="cv.where" className="h-auto w-full" />
-    </div>
-  )
-}
+
