@@ -77,13 +77,6 @@ export default async function Home() {
                     />
                   }
                 >
-                  <PostList
-                    postType="PostSimple"
-                    postTypeOpts={{ ...defaultPostTypeOpts, showPinned: true }}
-                    options={{
-                      className: 'flex flex-col divide-y'
-                    }}
-                  />
                 </Suspense>
               </div>
 
