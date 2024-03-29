@@ -27,21 +27,8 @@ export default function Footer(props: FooterProps) {
           <Link className={cn(aClass)} href={'/about/'}>
             About
           </Link>
-          <span>|</span>
-          <a
-            className={cn(aClass)}
-            href="https://photos.app.goo.gl/9OVEkdTjmtRPg7vC3"
-            target="_blank"
-          >
-            My sketches <TbExternalLink />
-          </a>{' '}
-          <span>|</span>
-          <a className={cn(aClass)} href="https://goo.gl/photos/yQXdQws1LLS16x5v5" target="_blank">
-            Cooking <TbExternalLink />
-          </a>{' '}
-          <span>|</span>
           <Link className={cn(aClass)} href={'/support-me/'}>
-            <Image className="h-4 w-auto" src={CafeIcon} alt="Cafe icon" /> Support Thi
+            <Image className="h-4 w-auto" src={CafeIcon} alt="Cafe icon" /> Support Ly
           </Link>
         </div>
         <div className="flex flex-row flex-wrap items-center justify-center gap-2 pt-1 pb-2 lg:flex-row">
