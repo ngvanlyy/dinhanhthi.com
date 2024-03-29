@@ -43,14 +43,6 @@ export const MENUS: MenuType[] = [
     name: 'Projects',
     uri: '/projects/',
     icon: FaGithub
-  },
-  {
-    name: 'Tools',
-    uri: '/tools/'
-  },
-  {
-    name: 'Bookmarks',
-    uri: '/bookmarks/'
   }
 ]
 

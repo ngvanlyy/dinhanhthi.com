@@ -48,8 +48,6 @@ export default async function Home() {
   const numPinnedPosts = 6
   const numPosts = 10
   const numProjects = 6
-  const numBookmarks = 5
-  const numTools = 6
   const numBlogPosts = 4
 
   const pinnedPosts = await getPosts({
@@ -91,8 +89,6 @@ export default async function Home() {
   })
   const projects = await getUnofficialProjects()
   const _topics = await getTopics()
-  const { tools } = await getUnofficialTools()
-  const bookmarks = await getUnofficialBookmarks()
 
   const topics = _topics.map(topic => ({
     ...topic,
@@ -200,40 +196,6 @@ export default async function Home() {
               </div>
             </div>
           </div>
-
-          {/* Bookmarks */}
-          <div className="flex flex-col gap-4">
-            <HeadingWithMore
-              title="Recent bookmarks"
-              href={bookmarks.length >= numBookmarks ? '/bookmarks/' : undefined}
-            />
-            <div className="grid grid-cols-1 gap-3">
-              {bookmarks.slice(0, numBookmarks).map((mark: BookmarkItem, index: number) => (
-                <Suspense
-                  key={mark.id}
-                  fallback={<SkeletonBookmarkItemSimpleTemplate index={index} />}
-                >
-                  <BookmarkItemSimpleTemplate key={mark.id} mark={mark} index={index} />
-                </Suspense>
-              ))}
-            </div>
-          </div>
-
-          {/* Tools */}
-          <div className="flex flex-col gap-4">
-            <HeadingWithMore
-              title="Recent tools I use"
-              href={tools.length >= numTools ? '/tools/' : undefined}
-            />
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:grid-cols-3">
-              {tools.slice(0, numTools).map((tool: Tool) => (
-                <Suspense key={tool.id} fallback={<SkeletonToolItem />}>
-                  <ToolItem key={tool.id} tool={tool} compactMode={true} />
-                </Suspense>
-              ))}
-            </div>
-          </div>
-
           {/* Topics */}
           <div className="flex flex-col gap-4">
             <HeadingWithMore title="Main topics" href="/tags/" />
