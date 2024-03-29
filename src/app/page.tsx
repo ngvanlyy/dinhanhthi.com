@@ -40,7 +40,7 @@ export default async function Home() {
   const projects = await getUnofficialProjects()
   const _topics = await getTopics()
 
-  const topics = _topics.map(topic => ({
+  const topics = _topics.map(topic => ({ 
     ...topic,
     icon: { sourceUrl: topic.iconUrl, width: 20, height: 20 }
   }))
@@ -53,7 +53,7 @@ export default async function Home() {
   return (
     <div className="ly-bg-stone">
       <HeaderIndex />
-      <Container className={cn(bodyPadding, containerWide)}>
+      <Container>
         <div className="flex flex-col gap-14">
           {/* Notes */}
           <div className="flex flex-col gap-4">
