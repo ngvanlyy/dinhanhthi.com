@@ -40,43 +40,7 @@ export default async function Home() {
   const numPosts = 10
   const numProjects = 6
 
-  const pinnedPosts = await getPosts({
-    pageSize: numPinnedPosts,
-    filter: {
-      and: [
-        {
-          property: 'pinned',
-          checkbox: {
-            equals: true
-          }
-        },
-        {
-          property: 'blog',
-          checkbox: {
-            equals: false
-          }
-        }
-      ]
-    }
-  })
-  const blogPosts = await getPosts({
-    pageSize: numBlogPosts,
-    filter: {
-      property: 'blog',
-      checkbox: {
-        equals: true
-      }
-    }
-  })
-  const posts = await getPosts({
-    pageSize: numPosts,
-    filter: {
-      property: 'blog',
-      checkbox: {
-        equals: false
-      }
-    }
-  })
+
   const projects = await getUnofficialProjects()
   const _topics = await getTopics()
 
