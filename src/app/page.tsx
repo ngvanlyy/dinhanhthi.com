@@ -35,6 +35,7 @@ export const metadata = getMetadata({
 })
 
 export default async function Home() {
+  const numPosts = 10
   const numProjects = 6
 
 
