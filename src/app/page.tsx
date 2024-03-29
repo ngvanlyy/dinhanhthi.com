@@ -35,7 +35,7 @@ export const metadata = getMetadata({
 })
 
 export default async function Home() {
-  const numPosts = 10
+
   const numProjects = 6
 
 
@@ -61,7 +61,6 @@ export default async function Home() {
           <div className="flex flex-col gap-4">
             <HeadingWithMore
               title="Recently updated notes"
-              href={posts.length >= numPosts ? '/notes/' : undefined}
             />
 
             <div className="flex flex-col gap-2">
