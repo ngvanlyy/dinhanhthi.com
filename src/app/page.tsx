@@ -10,7 +10,6 @@ import { Suspense } from 'react'
 
 import ScrollToTop from '@notion-x/src/components/ScrollToTop'
 import me from '../data/me'
-import { SkeletonToolItem } from './(single-page)/tools/ToolsPage'
 import Container from './components/Container'
 import HeaderIndex from './components/HeaderIndex'
 import ProjectItem, { Project, SkeletonProjectItem } from './components/ProjectItem'
