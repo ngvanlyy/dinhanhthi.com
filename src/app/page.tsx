@@ -93,14 +93,6 @@ export default async function Home() {
                     />
                   }
                 >
-                  <PostList
-                    posts={posts.filter(post => !post.pinned)}
-                    postType="PostSimple"
-                    postTypeOpts={defaultPostTypeOpts}
-                    options={{
-                      className: 'flex flex-col divide-y'
-                    }}
-                  />
                 </Suspense>
               </div>
             </div>
