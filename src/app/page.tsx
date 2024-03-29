@@ -17,9 +17,7 @@ import { bodyPadding, containerWide, defaultBlurDataURL, defaultPostTypeOpts } f
 import {
   getPosts,
   getTopics,
-  getUnofficialBookmarks,
   getUnofficialProjects,
-  getUnofficialTools
 } from './lib/fetcher'
 import { getMetadata, getUri } from './lib/helpers'
 
