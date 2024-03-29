@@ -10,14 +10,8 @@ import { Suspense } from 'react'
 
 import ScrollToTop from '@notion-x/src/components/ScrollToTop'
 import me from '../data/me'
-import { BookmarkItem, Tool } from '../interface'
-import BookmarkItemSimpleTemplate, {
-  SkeletonBookmarkItemSimpleTemplate
-} from './(single-page)/bookmarks/BookmarkItemSimpleTemplate'
-import ToolItem from './(single-page)/tools/ToolItem'
 import { SkeletonToolItem } from './(single-page)/tools/ToolsPage'
 import Container from './components/Container'
-import Footer from './components/Footer'
 import HeaderIndex from './components/HeaderIndex'
 import ProjectItem, { Project, SkeletonProjectItem } from './components/ProjectItem'
 import { bodyPadding, containerWide, defaultBlurDataURL, defaultPostTypeOpts } from './lib/config'
@@ -274,7 +268,6 @@ export default async function Home() {
           </div>
         </div>
       </Container>
-      <Footer footerType="gray" />
       <ScrollToTop />
     </div>
   )
