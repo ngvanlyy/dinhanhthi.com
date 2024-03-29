@@ -1,7 +1,6 @@
 /* eslint-disable quotes */
 import HeadingWithMore from '@notion-x/src/components/HeadingWithMore'
 import ImageComponent from '@notion-x/src/components/ImageComponent'
-import PostList from '@notion-x/src/components/PostsList'
 import SkeletonPostList from '@notion-x/src/components/SkeletonPostList'
 import { makeSlugText } from '@notion-x/src/lib/helpers'
 import cn from 'classnames'
