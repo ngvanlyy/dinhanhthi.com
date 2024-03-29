@@ -42,7 +42,7 @@ export default async function Home() {
 
   const topics = _topics.map(topic => ({
     ...topic,
-    icon: { sourceUrl: topic.iconUrl, width: 20, height: 20, blurDataURL: defaultBlurDataURL }
+    icon: { sourceUrl: topic.iconUrl, width: 20, height: 20 }
   }))
 
   const projectsToShow = projects.slice(0, numProjects)
