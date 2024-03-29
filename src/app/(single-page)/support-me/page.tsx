@@ -26,7 +26,7 @@ export default async function SupportThiPage() {
     const postProps = getPostProperties(block)
     return <SinglePostTemplate hideMeta={true} recordMap={recordMap} postProps={postProps} />
   } catch (error) {
-    console.log('🚨Error when loading Support Thi page', error)
+    console.log('🚨Error when loading Support ly page', error)
     notFound()
   }
 }
