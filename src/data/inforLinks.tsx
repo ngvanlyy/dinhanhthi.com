@@ -19,27 +19,6 @@ export const inforLinks: BadgeInfosProps[] = [
     url: '/about/',
     title: 'My CV',
     icon: '📋'
-  },
-  {
-    id: 'sketches',
-    url: 'https://photos.app.goo.gl/9OVEkdTjmtRPg7vC3',
-    title: 'My Sketches',
-    icon: '🎨',
-    external: true
-  },
-  {
-    id: 'reading',
-    url: 'https://www.goodreads.com/user/show/19630622-thi-dinh',
-    title: 'Reading list',
-    icon: '📚',
-    external: true
-  },
-  {
-    id: 'cook',
-    url: 'https://goo.gl/photos/yQXdQws1LLS16x5v5',
-    title: 'Cooking',
-    icon: '🍲',
-    external: true
   }
 ]
 
