@@ -8,7 +8,7 @@ import SinglePostTemplate from '../../templates/SinglePostTemplate'
 export const revalidate = 20
 
 export const metadata = getMetadata({
-  title: 'Support Thi',
+  title: 'Support Ly',
   images: [
     {
       url: 'https://i.imgur.com/PyXUtfTh.png',
