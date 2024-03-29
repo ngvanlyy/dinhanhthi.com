@@ -40,7 +40,6 @@ const cv: CVGroupType[] = [
       {
         id: 'self-learning-ds',
         where: 'Self-learning',
-        logo: SelfLearnLogo,
         title: 'Data Science',
         date: '2019 — current',
         activity: [
@@ -50,7 +49,6 @@ const cv: CVGroupType[] = [
       {
         id: 'Academy of Finance',
         where: 'Academy of Finance',
-        logo: DHSPLogo,
         url: 'https://hvtc.edu.vn/',
         title: 'Bachelor in Accounting',
         date: '2018 — 202',

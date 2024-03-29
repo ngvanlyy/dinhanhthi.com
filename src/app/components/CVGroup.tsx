@@ -7,7 +7,6 @@ export type CVItem = {
   id: string
   where: string
   bgWhite?: boolean
-  logo: any
   url?: string
   title: string
   date: string
