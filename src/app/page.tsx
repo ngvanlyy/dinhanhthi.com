@@ -105,7 +105,7 @@ export default async function Home() {
   const isThereOtherProject = projectsToShow.some(project => project.type.includes('other'))
 
   return (
-    <div className="thi-bg-stone">
+    <div className="ly-bg-stone">
       <HeaderIndex />
       <Container className={cn(bodyPadding, containerWide)}>
         <div className="flex flex-col gap-14">
@@ -152,7 +152,7 @@ export default async function Home() {
 
             <div className="flex flex-col gap-2">
               {/* pinned */}
-              <div className="thi-box-code overflow-hidden mb-3">
+              <div className="ly-box-code overflow-hidden mb-3">
                 <Suspense
                   fallback={
                     <SkeletonPostList
@@ -176,7 +176,7 @@ export default async function Home() {
               </div>
 
               {/* notes */}
-              <div className="thi-box-code overflow-hidden">
+              <div className="ly-box-code overflow-hidden">
                 <Suspense
                   fallback={
                     <SkeletonPostList
@@ -245,7 +245,7 @@ export default async function Home() {
                     href={getUri('tag', makeSlugText(topic.name))!}
                     key={makeSlugText(topic.name)}
                     className={cn(
-                      'flex items-center gap-1 p-2 thi-box-code',
+                      'flex items-center gap-1 p-2 ly-box-code',
                       'transition duration-200 ease-in-out hover:-translate-y-0.5',
                       { 'tooltip-auto': topic.description }
                     )}
