@@ -12,7 +12,6 @@ import me from '../data/me'
 import Container from './components/Container'
 import HeaderIndex from './components/HeaderIndex'
 import ProjectItem, { Project, SkeletonProjectItem } from './components/ProjectItem'
-import { bodyPadding, containerWide, defaultBlurDataURL, defaultPostTypeOpts } from './lib/config'
 import {
   getTopics,
   getUnofficialProjects,
