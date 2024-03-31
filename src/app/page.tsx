@@ -25,7 +25,7 @@ export const metadata = getMetadata({
   description: me.quote,
   images: [
     {
-      url: 'https://imgur.com/a/g1OC75C',
+      url: 'https://imgur.com/3kAZ4ah', 
       width: 1024,
       height: 581
     }
