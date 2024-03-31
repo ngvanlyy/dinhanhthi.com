@@ -1,6 +1,6 @@
 import cn from 'classnames'
 import { Suspense } from 'react'
-
+import Footer from '../../components/Footer'
 import ScrollToTop from '@notion-x/src/components/ScrollToTop'
 import cv from '../../../data/cv'
 import me from '../../../data/me'
@@ -55,6 +55,7 @@ export default async function AboutPage() {
           ))}
         </div>
       </Container>
+      <Footer footerType="gray" />
       <ScrollToTop />
     </div>
   )
