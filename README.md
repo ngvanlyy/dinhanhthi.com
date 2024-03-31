@@ -1,4 +1,4 @@
-# dinhanhthi.com
+# ngvanlyy.id.vn
 
 Next.js 14+ 🤝 Tailwind CSS 🤝 Notion as CMS 🤝 [notion-x](https://github.com/dinhanhthi/notion-x).
 

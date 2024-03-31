@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://dinhanhthi.com/',
+  siteUrl: 'https://ngvanlyy.id.vn',
   generateRobotsTxt: true,
   generateIndexSitemap: false
 }
