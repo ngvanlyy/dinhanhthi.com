@@ -6,7 +6,7 @@ import { makeSlugText } from '@notion-x/src/lib/helpers'
 import cn from 'classnames'
 import Link from 'next/link'
 import { Suspense } from 'react'
-
+import Footer from './components/Footer'
 import ScrollToTop from '@notion-x/src/components/ScrollToTop'
 import me from '../data/me'
 import Container from './components/Container'
@@ -173,6 +173,7 @@ export default async function Home() {
           </div>
         </div>
       </Container>
+      <Footer footerType="gray" />
       <ScrollToTop />
     </div>
   )
